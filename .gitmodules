@@ -1,0 +1,3 @@
+[submodule ".themes/myoctheme"]
+	path = .themes/myoctheme
+	url = git@github.com:Kjuly/myoctheme.git
