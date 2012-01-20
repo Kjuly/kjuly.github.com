@@ -37,7 +37,23 @@ Site source for [Kjuly.me](http://kjuly.me).
     # ---git config --global user.name "Another User Name"
     # ---git config --global user.email "Another Email Address"
 
+---
+### Updating:
 
+    git pull octopress master     # Get the latest Octopress
+    bundle install                # Keep gems updated
+
+If you’ve pulled in changes and you want to update your /source directory, run this.
+
+    rake update_source            # update the template's source
+
+If you’ve pulled in changes and you want to update your `/sass` directory, run this.
+
+    rake update_style             # update the template's style
+
+More refer it [HERE](http://octopress.org/docs/updating/).
+
+---
 ### Blogging:
 
     rake new_post["Title"]
