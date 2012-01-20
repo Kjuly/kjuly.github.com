@@ -43,7 +43,7 @@ Site source for [Kjuly.me](http://kjuly.me).
     git pull octopress master     # Get the latest Octopress
     bundle install                # Keep gems updated
 
-If you’ve pulled in changes and you want to update your /source directory, run this.
+If you’ve pulled in changes and you want to update your `/source` directory, run this.
 
     rake update_source            # update the template's source
 
