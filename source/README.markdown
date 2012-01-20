@@ -57,7 +57,10 @@ More refer it [HERE](http://octopress.org/docs/updating/).
 ### Blogging:
 
     rake new_post["Title"]
-    // edit the post
+
+Then edit the post:
+
+    vim soruce/_post/[the date]-TiTle.markdown
 
 Local test:
 
