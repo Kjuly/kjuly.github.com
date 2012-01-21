@@ -16,6 +16,7 @@ Site source for [Kjuly.me](http://kjuly.me).
     rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
     bundle install
     rake install    # Install the default Octopress theme
+                    # `rake install[myoctheme]` will install `myoctheme` theme instead
 
     # ---git config user.name "anotherUserName"
     # ---git config user.email "anotherAccount@example.com"
