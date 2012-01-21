@@ -37,7 +37,9 @@ Or use the `patch` command(releated post: [Linux / Unix Command: patch][]):
 - [How to create a patch][]
 - [Linux / Unix Command: patch][]
 - [git-format-patch(1) Manual Page][]
+- [patch(1) - Linux man page][]
 
 [How to create a patch]: http://docs.moodle.org/dev/How_to_create_a_patch
 [Linux / Unix Command: patch]: http://linux.about.com/od/commands/l/blcmdl1_patch.htm
 [git-format-patch(1) Manual Page]: http://schacon.github.com/git/git-format-patch.html
+[patch(1) - Linux man page]: http://linux.die.net/man/1/patch
