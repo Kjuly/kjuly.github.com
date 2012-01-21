@@ -16,7 +16,7 @@
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
-//$solarized: light;
+$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 $base03:          #161616; //darkest blue
@@ -36,8 +36,14 @@ $solar-blue:      #8d5bdb;
 $solar-cyan:      #ba5bd7;
 $solar-green:     #e09cff;
 
+// Special color
+$spec-tag:        #f4f4f4;
+$base-text-color: #333333;
+$gray-dark:       #666666;
+$gray:            #888888;
+
 
 /* Non highlighted code colors */
-$pre-bg: transparent;
-$pre-border: none;
-//$pre-color: $base1;
+$pre-bg: none;
+$pre-border: $base01;
+$pre-color: none;

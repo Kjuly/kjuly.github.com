@@ -122,6 +122,9 @@ article + article {
 }
 
 #content div.pagination {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-size: .95em;
   position: relative;
