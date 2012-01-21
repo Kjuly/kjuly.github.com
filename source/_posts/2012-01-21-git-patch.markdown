@@ -7,10 +7,18 @@ categories:
 - Note
 ---
 
+### Which works well:
+
+    git diff --no-prefix commit_id_1 commit_id_2 > new_feature.patch
+    # git diff --no-prefix path/to/proj_1/file path/to/proj_2/file > new_feature.patch
+    patch -p0 < new_feature.patch
+
+Releated post: [How to apply "git diff" patch?][]
+
 ### Generate Patch File:
 Generate a patch between two commits:
 
-    git diff commit_id_1 commit_id_2 > new_feature.patch
+    git diff --no-prefix commit_id_1 commit_id_2 > new_feature.patch
 
 Or just(the easiest way to create a patch for the last commit):
 
@@ -30,7 +38,7 @@ If not use `git`, use `diff` command:
 
 Or use the `patch` command(releated post: [Linux / Unix Command: patch][]):
 
-    patch < new_feature.patch
+    patch -p0 < new_feature.patch
 
 ## REFERENCES
 
@@ -38,8 +46,10 @@ Or use the `patch` command(releated post: [Linux / Unix Command: patch][]):
 - [Linux / Unix Command: patch][]
 - [git-format-patch(1) Manual Page][]
 - [patch(1) - Linux man page][]
+- [How to apply "git diff" patch?][]
 
 [How to create a patch]: http://docs.moodle.org/dev/How_to_create_a_patch
 [Linux / Unix Command: patch]: http://linux.about.com/od/commands/l/blcmdl1_patch.htm
 [git-format-patch(1) Manual Page]: http://schacon.github.com/git/git-format-patch.html
 [patch(1) - Linux man page]: http://linux.die.net/man/1/patch
+[How to apply "git diff" patch?]: http://stackoverflow.com/questions/3418277/how-to-apply-git-diff-patch
