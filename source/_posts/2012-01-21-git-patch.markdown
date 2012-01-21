@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Git patch"
+date: 2012-01-21 13:49
+comments: true
+categories: 
+- Note
+---
+
+### Generate Patch File:
+Generate a patch between two commits:
+
+    git diff commit_id_1 commit_id_2 > new_feature.patch
+
+Or just(the easiest way to create a patch for the last commit):
+
+    git show > new_feature.patch
+
+There's also a tool, format-patch, for formatting a patch to send as an e-mail. You can create patches for the last n revisions like this:
+
+    git format-patch -n
+
+If not use `git`, use `diff` command:
+
+    diff -Naur standard_moodle my_moodle > patch.txt
+
+### Apply the Patch:
+
+    git apply new_feature.patch
+
+Or use the `patch` command(releated post: [Linux / Unix Command: patch][]):
+
+    patch < new_feature.patch
+
+## REFERENCES
+
+- [How to create a patch][]
+- [Linux / Unix Command: patch][]
+- [git-format-patch(1) Manual Page][]
+
+[How to create a patch]: http://docs.moodle.org/dev/How_to_create_a_patch
+[Linux / Unix Command: patch]: http://linux.about.com/od/commands/l/blcmdl1_patch.htm
+[git-format-patch(1) Manual Page]: http://schacon.github.com/git/git-format-patch.html
