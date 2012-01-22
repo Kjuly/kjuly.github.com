@@ -15,12 +15,14 @@ $header-subtitle-font-family: $sans !default;
 .mono { font-family: $mono; }
 
 body > header h1 {
-  font-size: 2.5em;
+  font-size: 3.75em;
   @extend .heading;
   font-family: $header-title-font-family;
   font-weight: normal;
-  line-height: 1.2em;
-  margin-bottom: 0.6667em;
+  line-height: 1em;
+  //margin-bottom: 0.6667em;
+  padding: 0;
+  margin: 0;
 }
 body > header h2 {
   font-family: $header-subtitle-font-family;
@@ -107,7 +109,15 @@ pre, code, tt { @extend .mono; }
 
 sub, sup { line-height: 0; }
 
-hr { margin-bottom: 0.2em; }
+hr {
+  background: transparent image-url('hr-element.png') repeat-x 0 0;
+  border: 0 none;
+  color: #ccc;
+  height: 4px;
+  margin: 20px 0;
+  padding: 0;
+  //margin-bottom: 0.2em;
+}
 
 small { font-size: .8em; }
 
@@ -117,8 +127,8 @@ blockquote {
   $bq-margin: 1.2em;
   font-style: italic;
   position: relative;
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 0.9em;
+  line-height: 1.2em;
   padding-left: 1em;
   border-left: 4px solid rgba($text-color-light, .5);
   cite {

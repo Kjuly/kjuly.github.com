@@ -46,7 +46,7 @@ $sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
 $sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
 $twitter-status-link: lighten($sidebar-link-color-subdued, 15) !default;
 
-$footer-color: #888 !default;
+$footer-color: #989898 !default;
 $footer-bg: transparent !default;
 $footer-bg-front: transparent !default;
 $footer-bg-back: transparent !default;
@@ -54,7 +54,7 @@ $footer-color: $text-color-light !default;
 $footer-color-hover: darken($text-color-light, 10) !default;
 $footer-border-top: #fff !default;
 $footer-border-bottom: none !default;
-$footer-link-color: darken($text-color-light, 38) !default;
+$footer-link-color: #989898 !default;
 $footer-link-color-hover: darken($footer-color, 25) !default;
 $page-border-bottom: lighten($text-color-light, 38) !default;
 
@@ -63,6 +63,7 @@ $page-border-bottom: lighten($text-color-light, 38) !default;
 
 a {
   @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
+  text-decoration:none;
 }
 aside.sidebar a {
   @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
