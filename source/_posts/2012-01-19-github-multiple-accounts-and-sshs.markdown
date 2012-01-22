@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github Multiple Accounts &amp; SSHes"
+title: "Github Multiple Accounts &amp; SSHs"
 date: 2012-01-19 18:16
 comments: true
 categories: 
