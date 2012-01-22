@@ -4,7 +4,7 @@ title: "Octopress Issues"
 date: 2012-01-18 19:09
 comments: true
 categories: 
-- Note
+- Issue
 ---
 
 ### Q:

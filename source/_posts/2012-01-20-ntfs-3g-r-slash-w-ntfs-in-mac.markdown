@@ -4,7 +4,8 @@ title: "NTFS-3G: R/w Ntfs in Mac"
 date: 2012-01-20 15:33
 comments: true
 categories:
-- Note
+- HowTo
+- Mac
 ---
 
 ### Fuse4x + NTFS-3G from MacPorts

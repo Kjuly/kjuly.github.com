@@ -4,7 +4,8 @@ title: "Github Multiple Accounts &amp; SSHes"
 date: 2012-01-19 18:16
 comments: true
 categories: 
-- Note
+- HowTo
+- Git
 ---
 
 ## STEPS
