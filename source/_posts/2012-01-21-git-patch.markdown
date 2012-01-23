@@ -14,6 +14,11 @@ categories:
     # git diff --no-prefix path/to/proj_1/file path/to/proj_2/file > new_feature.patch
     patch -p0 < new_feature.patch
 
+    diff new_file old_file > patch_file
+    patch -p0 old_file patch
+
+Tips: `-R`: Assume patches were created with old and new files swapped(the `old_file` is newer than `new_file`).
+
 Releated post: [How to apply "git diff" patch?][]
 
 ### Generate Patch File:
