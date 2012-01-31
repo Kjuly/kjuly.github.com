@@ -18,12 +18,12 @@ or ignoring aspect ratio, resizing the image to `1024×768`:
 
 `Sips`: Scriptable Image Processing System.
 
-### References:
+## References:
 
 - [Resizing images using the command line][]
 
 
-### Reading List:
+## Reading List:
 - [How do you use “sips” at the terminal to resize an image, without upscaling?][]
 
 [Resizing images using the command line]: http://www.ainotenshi.org/818/resizing-images-using-the-command-line

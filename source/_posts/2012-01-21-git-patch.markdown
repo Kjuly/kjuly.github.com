@@ -46,7 +46,7 @@ Or use the `patch` command(releated post: [Linux / Unix Command: patch][]):
 
     patch -p0 < new_feature.patch
 
-## REFERENCES
+## References
 
 - [How to create a patch][]
 - [Linux / Unix Command: patch][]

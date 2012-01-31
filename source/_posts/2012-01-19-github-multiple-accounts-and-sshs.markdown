@@ -8,7 +8,7 @@ categories:
 - Git
 ---
 
-## STEPS
+## Steps
 
 1. Create the SSH key pair for another account (related post: [github:help - Set Up Git](http://help.github.com/mac-set-up-git/)).
 
@@ -57,13 +57,13 @@ categories:
 
         git clone git@github.com:defaultAccount/my_repo.git
 
-## ISSUES
+## Issues
 ### Q:
     Bad owner or permissions on /Users/username/.ssh/config
 ### A:
     chmod 600 ~/.ssh/config
 
-## REFERENCES
+## References
 
 - [Github:ors:help - Multiple SSH keys](http://ufz.github.com/help/multiple-ssh-keys/)
 - [Multiple GitHub Accounts & SSH Config](http://stackoverflow.com/questions/3225862/multiple-github-accounts-ssh-config)

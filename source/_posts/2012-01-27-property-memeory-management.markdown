@@ -26,7 +26,7 @@ categories:
 
     self.iVar = [[SomeClass alloc] init];
 
-### REFERENCES:
+## References:
 
 - [Acceptable ways to release a property][]
 - [Objective C: Proper way to init an NSArray that is a @property][]

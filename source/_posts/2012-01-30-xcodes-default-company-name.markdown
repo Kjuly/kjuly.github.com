@@ -14,7 +14,7 @@ In terminal:
 
 `XCode` will try to pull this information from the entry in the system address book.
 
-#REFERENCES:
+## References:
 
 - [How to replace the company name in the template headers in Xcode?][]
 

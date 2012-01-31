@@ -8,7 +8,7 @@ categories:
 - Mac
 ---
 
-### Fuse4x + NTFS-3G from MacPorts
+## Fuse4x + NTFS-3G from MacPorts
 
     sudo port install ntfs-3g
 
@@ -85,7 +85,7 @@ __If they don't match the ones on the script, edit the script again and modify i
 Update: This is needed only in a worst case scenario where you have autologin disabled and you don't login manually within 20 seconds (adjustable in the TIMEOUT variable).
 
 
-### TIPS:
+## Tips:
 Command of listing disks in Mac through terminal:
 
     df [-Th]
@@ -93,7 +93,7 @@ Command of listing disks in Mac through terminal:
 It seems `fdisk -l` only works in linux(not sure, but it doesn't work).
 
 
-### REFERENCES:
+## References:
 
 - [NTFS WRITE SUPPORT ON OSX LION WITH NTFS-3G](http://fernandoff.posterous.com/ntfs-write-support-on-osx-lion-with-ntfs-3g-f)
 - [Install NTFS-3G with read-write on OS X Lion using MacPorts](http://superuser.com/questions/316341/install-ntfs-3g-with-read-write-on-os-x-lion-using-macports)
