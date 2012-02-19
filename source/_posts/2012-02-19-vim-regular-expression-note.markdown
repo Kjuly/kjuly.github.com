@@ -25,3 +25,7 @@ categories:
         "NameLeft_1" = "NameLeft_1"
         "NameLeft_2" = "NameLeft_2"
         ...
+
+2. Remove blank lines:
+
+        :%s/^$\n//g
