@@ -29,3 +29,15 @@ categories:
 2. Remove blank lines:
 
         :%s/^$\n//g
+
+3. Delete lines not containing a string
+
+        :g!/^.*theString.*$/d
+
+    Tip: To delete all lines that contain a pattern, use `g` instead of `g!`.
+
+### Reference:
+
+- [Vim Tips][]
+
+[Vim Tips]: http://rayninfo.co.uk/vimtips.html
