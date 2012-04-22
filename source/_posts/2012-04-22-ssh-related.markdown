@@ -26,3 +26,23 @@ Tip: use
 so you can drop the `-i` option.
 
 There's a `-v` option, that can output the debug information
+
+---
+## rsync
+
+File transfer.
+
+    rsync [OPTION] … SRC [SRC] … [USER@]HOST:DEST
+    rsync [OPTION] … [USER@]HOST:SRC [DEST]
+
+e.g.
+
+    rsync -avz src/ ubuntu@xxx.xxx.xxx.xxx:destination/
+
+options: -a 
+
+### Reference:
+
+- [rsync man page][]
+
+[rsync man page]:http://ss64.com/bash/rsync.html
