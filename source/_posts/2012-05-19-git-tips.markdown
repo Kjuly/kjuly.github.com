@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Git Tips"
+date: 2012-05-19 14:59
+comments: true
+categories: 
+- Git
+- Vim
+---
+
+### Rename submodule:
+
+modify `.gitmodules` file:
+
+e.g. rename `taglist` to `git-taglist`
+
+    [submodule "bundle/taglist"]
+      path = bundle/taglist
+      url = git://github.com/vim-scripts/taglist.vim.git
+
+to
+    
+    [submodule "bundle/git-taglist"]
+      path = bundle/git-taglist
+      url = git://github.com/vim-scripts/taglist.vim.git
+
+then
+
+    $ mv bundle/taglist bundle/git-taglist
+    $ git rm bundle/taglist
+    $ git add bundle/git-taglist
+    $ git submodule sync
+
+### Reference
+
+- [Rename a git submodule][]
+
+[Rename a git submodule]: http://stackoverflow.com/questions/4526910/rename-a-git-submodule
