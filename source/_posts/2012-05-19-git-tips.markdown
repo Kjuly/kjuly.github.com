@@ -10,7 +10,7 @@ categories:
 
 ### Rename submodule:
 
-modify `.gitmodules` file:
+#### 1. modify `.gitmodules` file:
 
 e.g. rename `taglist` to `git-taglist`
 
@@ -30,6 +30,19 @@ then
     $ git rm bundle/taglist
     $ git add bundle/git-taglist
     $ git submodule sync
+
+---
+#### 2. new brach with different commits:
+
+>    A - - D  (other-branch)  
+>   /  
+> O - - A - - B - - C  (master)  
+>   \  
+>    A - - C (new-branch)
+
+    $ git branch new-branch <A sha>
+    $ git co new-branch
+    $ git cheery-pick <C sha1>
 
 ### Reference
 
